@@ -6,7 +6,7 @@ body {
   align-content: center;
   background-image: linear-gradient(to bottom, #2c4959, #0b1c33, #0a192d);
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background-size: auto auto;
 }
 
 .main {
