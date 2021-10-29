@@ -1,0 +1,129 @@
+body {
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: linear-gradient(to bottom, #2c4959, #0b1c33, #0a192d);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.main {
+  position: absolute;
+  top: 25%;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  transform: rotate(0deg);
+  animation: main 60s infinite linear -5s;
+}
+.main2 {
+  position: absolute;
+  top: 25%;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  transform: rotate(0deg);
+  animation: main 50s infinite linear -5s;
+}
+.main3 {
+  position: absolute;
+  top: 25%;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  transform: rotate(0deg);
+  animation: main 37s infinite linear -5s;
+}
+.main4 {
+  position: absolute;
+  top: 47%;
+  width: 170px;
+  height: 170px;
+  border: 3px solid #c8eaef;
+  border-radius: 100%;
+  transform: rotate(0deg);
+  animation: main 27s infinite linear -5s;
+}
+
+.first {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  margin: -15%;
+  transform: rotate(0deg);
+  animation: main 60s infinite linear -5s;
+  
+} 
+.first2 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  margin: -302px 0 0 -68px;
+  transform: rotate(0deg);
+  animation: main 20s infinite linear -5s;
+  
+} 
+
+.first-inner{
+  width: 25px;
+  height: 25px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  margin: 55px 0px 0px 10px ;
+  background-color: #a4a1bd;
+  transform: rotate(0deg);
+}
+.second-inner{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  margin: 62px 0px 0px 10px ;
+  background-color: #3addca;
+  transform: rotate(0deg);
+}
+.solid{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  margin: 157px 0px 0px 10px ;
+  background-color: #7c96a1;
+}
+
+.solid-holo{
+  width: 20px;
+  height: 20px;
+  border: 15px solid #45b9ab;
+  border-radius: 100%;
+  margin: 22px 0px 0px 10px ;
+ 
+}
+
+.orange{
+  width: 55px;
+  height: 55px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  margin: 320px 0px 0px 10px ;
+  background-color: #fdc6bd;
+}
+
+@keyframes main {
+  
+  from {
+    transform: rotate(-360deg);
+    transition: transform 1s linear;
+  }
+  to {
+    transform: rotate(360deg);
+    transition: transform 1s linear;
+  }
+}
